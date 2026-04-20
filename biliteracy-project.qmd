@@ -1,0 +1,101 @@
+---
+title: "Korean 한국어"
+subtitle: "Yuna Lee"
+title-slide-attributes:
+  data-background-image: "./_assets/spe_biliteracy_cover_slide.png"
+  data-background-size: "cover"
+---
+
+## Introduce Myself
+
+<img src="./_assets/spe_biliteracy_header.png" class="spe-header">
+
+[Hello, my name is Yuna Lee! I am a fifth grader at Summit Pointe Elementary School.  ]{.fragment}
+
+
+[안녕하세요, 이유나 입니다. 저는 써밋 포인트 초등학교 5학년입니다.]{.fragment}
+
+## What I Learned
+
+<img src="./_assets/spe_biliteracy_header.png" class="spe-header">
+
+::::{.columns}
+
+:::{.column width="50%" .fragment}
+
+Korean writing system is simple, because its writen the way it is pronunced!
+
+:::{.incremental}
+- First, you need a consonent.
+- Then, you need to add the vowel to the first consonent to complete the word you write.
+- If nesaeary, you have to add the final consonent below the first consonent and vowel combination.
+- The final consonent is also known as the Batchim (받침.)
+:::
+
+:::
+
+
+:::{.column width="50%" .fragment}
+
+:::{.no-gap}
+![
+[source: EasyTalkKorean (2023)](https://blog.naver.com/dotdot_n_connect/223229105280){style="margin-left:20px;font-size:.8em;"}<br>
+[**A mechanism to write Korean**]{style="margin-left:20px;"}
+](./_assets/spe_biliteracy_hangul_explanation.png)
+:::
+
+#### [Examples]{.fragment}
+
+::::{.columns style="font-size:0.8em;" .fragment}
+:::{.column width="40%"}
+
+* 사람 - Person
+* 친구 - Friend
+* 학생- Student
+:::
+
+:::{.column width="40%"}
+
+* 선생님- Teacher
+* 어머니- Mother
+* 아버지- Father
+:::
+
+::::
+:::
+
+::::
+
+## My Motivations
+
+<img src="./_assets/spe_biliteracy_header.png" class="spe-header">
+
+[The reason why I chose to study Korean 
+is to communicate better with my parents and my grandparents when I talk
+to them during Facetime calls, also when I talk to my aunt and uncle. 
+Although I know how to speak Korean, my knowledge is not fullproof.]{.fragment}
+
+[제가 한국어를 배우기로 결심한 
+이유는 부모님께서 한국 출신이시고 한국어를 사용하시며, 조부모님 또한
+한국분이셔서 그분들 모두와 더 원활하게 소통하고 싶었기 때문입니다.
+저는 한국어를 말할 수 있지만 읽기와 쓰기는 서툽니다.]{.fragment}
+
+## In the Future
+
+<img src="./_assets/spe_biliteracy_header.png" class="spe-header">
+
+* I would use this knowledge to talk and type to my family and friends.
+* I could use this knowledge at Korean Mass, during TV shows, reading, and 
+Facetime calls with my grandparents, my aunt and my uncle.
+* I also could use this knowledge to help me learn other languages like Spanish or 
+Japanese from my father who speaks Japanese fluently.
+
+## New Language Learning is Important
+
+
+<img src="./_assets/spe_biliteracy_header.png" class="spe-header">
+
+Learning a new language is important because it helps a single individual to understand other cultures and traditions.
+I think that people will open their hearts to learn about new and unfamiliar cultures by learning a new language to understand
+people worldwide who have a different traditions.
+

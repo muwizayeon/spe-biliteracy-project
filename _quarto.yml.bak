@@ -1,0 +1,20 @@
+project:
+  title: "DSA 4200 / 5200 Advanced Data Visualization"
+  output-dir: ../_site
+
+format:
+  revealjs:
+    theme: [default, ../_assets/clean_slides.scss] # <--- Loads default, then overrides with yours
+    embed-resources: true
+    slide-number: true
+    show-slide-number: all
+    smaller: true
+    scrollable: true
+    # logo: ./02_images/mule-rev-rt-outline-onred.png  # (Optional: Drop a PNG here later)
+    footer: "DSA 4200 / 5200 - Dr. Lee"
+
+    # Add Menu configuration
+    menu:
+      hideMissingTitles: true
+      useTextContentForMissingTitles: false
+      titleSelector: ":scope:not(.unlisted) h1, :scope:not(.unlisted) h2, :scope:not(.unlisted) h3"

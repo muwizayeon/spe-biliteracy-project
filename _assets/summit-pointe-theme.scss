@@ -1,0 +1,330 @@
+/*-- scss:defaults --*/
+
+// ============================================================
+// Summit Pointe Elementary — 빌리터러시 (Biliteracy) Theme
+// Korean Folk Art (민화 Minhwa) Style
+// School Colors: Green, Black, Silver
+// Mascot: Shadow the Panther (표범)
+// ============================================================
+
+// ----- School Colors -----
+$panther-green:    #2E7D32;
+$panther-dark:     #1B5E20;
+$panther-black:    #242321;
+$panther-silver:   #B0B7BF;
+$panther-white:    #FFFFFF;
+$parchment:        #F5ECD7;
+$parchment-dark:   #E8DCC6;
+$gold-accent:      #C49A3C;
+
+$green-light:      #4CAF50;
+$silver-light:     #E0E4E8;
+
+// ----- Fonts -----
+$font-family-sans-serif: "Noto Sans KR", "Nunito", "Segoe UI", Arial, sans-serif;
+$presentation-font-size-root: 34px;
+$presentation-heading-font: "Noto Serif KR", "Poppins", "Georgia", serif;
+$presentation-line-height: 1.5;
+$presentation-heading-text-transform: none;
+
+// ----- Base Colors -----
+$body-bg:          $panther-white;
+$body-color:       $panther-black;
+$link-color:       $panther-green;
+$link-color-hover: $green-light;
+$selection-bg:     $panther-green;
+$selection-color:  $panther-white;
+
+$presentation-heading-color: $panther-dark;
+
+$code-color:       $panther-green;
+$code-bg:          $silver-light;
+
+
+/*-- scss:rules --*/
+
+// ============================================================
+// TITLE SLIDE
+// ============================================================
+
+.reveal .slides section.quarto-title-block {
+  text-align: center;
+  padding-left: 2% !important;
+  padding-right: 5% !important;
+  padding-top: 12% !important;
+
+  h1.title {
+    color: $panther-black;
+    font-family: "Deogonn-Preincess-Classic", serif;
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    text-shadow: 1px 1px 3px rgba(245, 236, 215, 0.6);
+    line-height: 1.5;
+    max-width: 55%;
+    margin-left: auto;
+  }
+
+  p.subtitle {
+    color: $panther-dark;
+    font-size: 1.6em;
+    max-width: 55%;
+    margin-left: auto;
+  }
+
+  // Author name 
+  .quarto-title-authors, 
+  .quarto-title-author-name {
+    color: $panther-black;
+    font-size: 1.2em;           // adjust size
+    line-height: 1.5;           // adjust spacing
+    max-width: 55%; 
+    margin-left: auto; 
+  } 
+
+  .quarto-title-meta-contents,
+  .quarto-title-meta,
+  p {
+    color: $panther-black;
+    max-width: 55%;
+    margin-left: auto;
+  }
+
+  
+}
+
+
+// ============================================================
+// HEADER AND FOOTER IMAGES
+// ============================================================
+
+.spe-header {
+  position: absolute !important;
+  top: 62.5px !important;
+  left: 40px !important;
+  width: 90% !important;
+  height: auto !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.spe-footer {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: auto !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+
+// ============================================================
+// CONTENT SLIDE LAYOUT
+// ============================================================
+
+.reveal .slides section:not(.quarto-title-block) {
+  padding-top: 70px !important;
+  padding-bottom: 110px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
+
+// ============================================================
+// HEADINGS AND FOOTERS
+// ============================================================
+
+.reveal .slides h2 {
+  color: $panther-white;
+  font-size: 1.2em;
+  position: relative;
+  z-index : 2;
+}
+
+.reveal .slides h3 {
+  color: $panther-dark;
+  font-size: 1.1em;
+  border-bottom: 2px solid $gold-accent;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.4em;
+}
+
+.reveal .slides h4 {
+  color: $panther-green;
+  font-size: 1.0em;
+}
+
+.reveal .footer {
+  padding: 0 !important;
+  bottom: 0px !important;
+  width: 100%;
+  height: 52px !important;
+  z-index: 2 !important;
+  background-color: transparent !important;
+}
+
+// ============================================================
+// BULLET POINTS
+// ============================================================
+
+.reveal .slides ul {
+  list-style: none;
+  padding-left: 1.8em;
+
+  li {
+    margin-bottom: 0.3em;
+
+    &::before {
+      content: "🐾";
+      margin-right: 0.5em;
+      margin-left: -1.8em;
+    }
+  }
+}
+
+.reveal .slides ul ul li::before {
+  content: "◆";
+  color: $panther-green;
+  font-size: 0.7em;
+}
+
+.reveal .slides ol li::marker {
+  color: $panther-green;
+  font-weight: bold;
+}
+
+
+// ============================================================
+// OTHER ELEMENTS
+// ============================================================
+
+.reveal blockquote {
+  background: $parchment;
+  border-left: 5px solid $gold-accent;
+  padding: 0.8em 1.2em;
+  font-style: italic;
+  color: $panther-black;
+  border-radius: 4px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reveal table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.85em;
+
+  thead {
+    background-color: $panther-green;
+    color: $panther-white;
+
+    th {
+      padding: 0.5em 0.8em;
+      border: 1px solid $panther-dark;
+    }
+  }
+
+  tbody {
+    tr:nth-child(even) {
+      background-color: rgba(245, 236, 215, 0.4);
+    }
+
+    td {
+      padding: 0.5em 0.8em;
+      border: 1px solid $panther-silver;
+    }
+  }
+}
+
+.reveal .slides img:not(.spe-header):not(.spe-footer) {
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+// Progress bar — move above the footer
+.reveal .progress {
+  bottom: 52px !important;    // your footer height
+  height: 3px !important;     // thickness of the line
+  z-index: 3 !important;
+}
+
+// Slide number — move above the footer
+.reveal .slide-number {
+  bottom: 57px !important;    // footer height + a little gap
+  right: 10px !important;
+  z-index: 5 !important;
+}
+
+// Hamburger menu — move above the footer
+.reveal .slide-menu-button {
+  bottom: 57px !important;    // same as slide number
+  left: 12px !important;
+  z-index: 5 !important;
+}
+
+// ============================================================
+// HELPER CLASSES
+// ============================================================
+
+// Hide UI elements by default (JS will show them on non-title slides)
+.reveal .footer,
+.reveal .progress,
+.reveal .slide-number {
+  display: none !important;
+}
+//.reveal .slide-menu-button {
+//  display: none !important;
+//}
+
+.panther-highlight {
+  background-color: $panther-green;
+  color: $panther-white;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.panther-badge {
+  display: inline-block;
+  background: $gold-accent;
+  color: $panther-black;
+  padding: 0.2em 0.8em;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.korean {
+  font-family: "Noto Serif KR", serif;
+  color: $panther-dark;
+}
+
+.hanji-box {
+  background: $parchment;
+  border: 2px solid $gold-accent;
+  border-radius: 8px;
+  padding: 1em 1.5em;
+  margin: 0.5em 0;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.old-letter {
+  font-family: "Deogonn-Preincess-Classic", serif;
+}
+
+/* No-Gap for the figure and the caption */
+.reveal .slides .no-gap {
+  margin-bottom: 0em !important;
+}
+.reveal .slides .no-gap figcaption {
+  margin-top: -25px !important;
+}
